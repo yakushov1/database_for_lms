@@ -52,7 +52,7 @@ CREATE TABLE steps(
 
 -- Добавлю инфу о том, что степ пока недоступен
 
-ALTER TABLE `steps` ADD `is_available` BOOLEAN DEFAULT FALSE AFTER `correct_answer`;
+ALTER TABLE steps ADD is_available BOOLEAN DEFAULT FALSE AFTER correct_answer;
 
 
 
